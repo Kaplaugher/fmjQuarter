@@ -10,8 +10,15 @@ class ourHorses extends Component {
     render() {
         return (
             <div>
-                <div>
-                    Our Horses!
+                <div className="horse-container">
+                    <div className="jumbotron horse-header">
+                        <div className="container">
+                            <h1>Our Horses</h1>
+                            <p>They are cool</p>
+                            
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         )
