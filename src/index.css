@@ -5,13 +5,11 @@ body {
 }
 
 .horse-header {
-  height: 60vh;
+  height: 50vh;
   background-image: url("horse-shoe.jpg");
   color: white;
 
 }
-
-
 
 .navbar {
   margin-bottom: 0px;
