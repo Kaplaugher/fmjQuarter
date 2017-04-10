@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import {Button} from 'react-bootstrap';
-import {Link} from 'react-router';
+// import {Button} from 'react-bootstrap';
+// import {Link} from 'react-router';
 
 // bring in necessary modules to provide this component with state import
 // {connect} from 'react-redux'; import {bindActionCreators} from 'redux';
 
 class ourHorses extends Component {
+
 
     render() {
         return (
@@ -15,10 +16,19 @@ class ourHorses extends Component {
                         <div className="container">
                             <h1>Our Horses</h1>
                             <p>They are cool</p>
-                            
                         </div>
                     </div>
-                    
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xs-6 horse-description">
+                                <h1>Here is horse 1</h1>
+                            </div>
+                            <div className="col-xs-6">
+                                <img src="https://www.scienceabc.com/wp-content/uploads/2016/05/horse-running.jpg" className="img-fluid horse-image"  />
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         )
